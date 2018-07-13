@@ -1,0 +1,188 @@
+body{
+	background-color: #eee;
+	color: #444;
+}
+
+#home-section{
+	background: url('../img/banner.jpg') no-repeat;
+	height: 100vh;
+	min-height: 500px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.dark-overlay{
+	background-color: rgba(0,0,0,.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	min-height: 500px;
+}
+
+
+.home-content{
+	top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+}   
+
+h1{
+	font-size: 1.6em;
+} 
+
+/*SERVICIOS*/
+
+.servicios-icon{
+	color: #7cb342;
+}
+
+
+/* SLIDER */
+.carousel-caption {
+    position: absolute;
+	left: auto;
+	right: 5%;
+    bottom: 2%;
+    z-index: 10;
+    padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+	background-color: rgba(0,0,0,.85);
+	font-size: .9em;
+}
+
+#pqElegirnos .carousel {
+    margin: 0 auto;
+}
+
+.redes-sociales a{
+	color: gray;
+	transition: all 0.7s;
+}
+
+.redes-sociales a:hover{
+	color: #ef9c00;
+}
+
+
+/*chat*/
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body
+{
+    margin-left: 60px;
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 60px;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 5px;
+}
+
+.panel-body
+{
+    overflow-y: scroll;
+    height: 250px;
+}
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+.panel-primary > .panel-heading{
+	color: #fff;
+	background-color: #428bca;
+	border-color: #428bca;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-bottom-color: transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+
+}
+
+.chatStyle{
+	bottom: 0%;
+	left: unset;
+	right: 15px;
+	width: 85%;
+	max-width: 250px; 
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	h1{
+		font-size: 2em;
+	} 
+}
+
+/* /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	h1{
+		font-size: 2.2em;
+	} 
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	h1{
+		font-size: 2.4em;
+	} 
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	h1{
+		font-size: 2.6em;
+	} 
+}
+
+
+
