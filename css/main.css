@@ -185,4 +185,10 @@ h1{
 }
 
 
+/* slider */
+.carousel .carousel-control-next-icon, .carousel .carousel-control-prev-icon {
+    width: 25px;
+    height: 25px;
+}
+
 
