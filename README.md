@@ -5,4 +5,4 @@
 ![inicio](https://user-images.githubusercontent.com/24881247/42730868-7892a42a-87d7-11e8-9bee-d9b7ecee002d.png)
 
 
-[Ver diseño anterior online.](http://www.fimac.com.ar/conaut/)
+[Ver diseño anterior online.](http://christianperalta.com/conaut/)
